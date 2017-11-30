@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "com.example.xianshajin.rosandroidlab"
+        applicationId "com.example.xianshajin.text"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
@@ -27,8 +27,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'org.ros.rosjava_core:rosjava_tutorial_pubsub:[0.2,0.3)'
-    compile 'org.ros.android_core:android_15:[0.2,0.3)'
-    compile 'com.github.rosjava.android_remocons:common_tools:[0.2,0.3)'
-    compile 'org.ros.rosjava_messages:world_canvas_msgs:[0.1,0.2)'
+    compile 'org.ros.android_core:android_10:[0.3,0.4)'
     testCompile 'junit:junit:4.12'
 }
